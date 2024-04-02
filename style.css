@@ -1,0 +1,424 @@
+*body{
+
+    margin: 0px;
+    padding: 0px;
+    width: 100px;
+
+}
+
+#header{
+    color: rgb(189, 63, 63);
+}
+#logo{
+
+    font-size: 4rem;
+   
+    color: #fa2b1c;
+    font-weight: 800;
+    margin-left: -120px;
+    margin-bottom: 17px;
+    font-style: italic;
+    /* position: absolute; */
+} 
+
+#menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: inline-end;
+    margin-top: -70px;
+    font-style: italic;
+
+}
+#menu li{
+
+    display: inline-block;
+ 
+}
+
+#menu li a{
+
+    color: #000000;
+    padding: 3px 8px;
+    display: block;  
+    font-weight: 700;
+    font-size: 17px;
+    color: rgb(2, 1, 1);
+    margin-top: 12px;
+    text-decoration: none;
+}
+a:hover{
+
+    text-decoration: none;
+}
+#menu li a:hover{
+
+    /* color: rgb(6, 223, 230); */
+    color: #E85E2A;
+
+}
+#banner{
+
+    background: url(bkimg2jpg.jpg) no-repeat 0 0;
+    height: 56rem;
+    background-size: cover;
+    display: block;
+    color: rgb(0, 0, 0);
+    
+}
+.banner-title{
+
+    padding-top: 1rem;
+    font-style: italic;
+    color: whitesmoke;
+}
+.button-2{
+
+margin-top: 60px;
+font-weight:500;
+font-style :normal;
+font-variant:normal;
+font-kerning :auto;
+font-optical-sizing:auto;
+font-stretch:100%;
+font-variation-settings:normal;
+font-feature-settings:normal;
+text-transform:none;
+/* text-decoration:none solid rgb(255, 255, 255); */
+text-align:center;
+font-size:16px;
+ background-color: grey;
+ padding: 10px;
+ margin-left: 20px;
+ border-radius: 10px;
+ color: white;
+}
+.banner-title h1{
+
+     background: rgba(255, 255, 255, 0);
+     display: inline-block;
+     padding: 10px;
+     margin: 0;
+     border-radius: 10PX;
+     font-style: italic;
+}
+.banner-title p.discription{
+
+    /* color: #000000; */
+    padding: 20px;
+    /* background: rgba(255, 255, 255, 0.2); */
+    font-style: italic;
+    font-size: larger;
+    color: white;
+    border-radius: 10px;
+}
+.service-box{
+
+    text-align: center;
+    color: #000000;
+}
+.service-box i.fa{
+
+    color: gray;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.section-head{
+
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 45px;
+  color: #000000;;
+  font-size: 20px;
+  text-decoration: solid rgb(255, 255, 255);
+}
+.container-section{
+background-color: white;
+margin-left: 100px;
+margin-right: 100px;
+}
+.col-md-4{
+    margin-bottom: 40px;
+}
+#testimonials{
+    background-color: rgb(7, 8, 8);
+    color: rgb(187, 187, 187);
+
+}
+  h1{
+
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 35px;
+  }
+  p{
+     font-weight: 500;
+
+  }
+.section-head-2{
+
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 45px;
+    font-style: italic;
+    color: rgb(255, 0, 0);
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+  
+  .feedbacktitle{
+
+    margin-bottom: 30px;
+  }
+  .companypic{
+
+    width: 90%;
+    height: 55vh;
+    background: cover !important;
+  }
+
+  #footer{
+
+    background-color: rgb(0, 0, 0);
+    color: rgb(236, 236, 236);
+    color: whitesmoke;
+    
+  }
+  .footer-2{
+  background-color : rgb(0, 0, 0);
+  color: black;
+
+  }
+  a{
+    color: #fcfcfc;
+  
+  }
+  .footer-widget h4{
+     color: #fff9f9;
+    margin-top: 20px;
+    font-size: 35px;
+    font-style: italic;
+    
+    
+  }
+  .footer-widget p{
+    color: rgb(250, 250, 250);
+   margin-top: 20px;
+    font-size: large;
+    margin-top: -20px;
+    word-wrap: wrap;
+  
+ }
+.container-footer{
+  background-color: #E85E2A;
+  align-items: center;
+}
+.col-md-6{
+
+  margin-left: 700px;
+}
+.section-heading{
+  font-size: 40px;
+}
+
+  
+
+  /* For tablet smaller than 768px (phones) */
+  @media (max-width: 1200px) {
+    #header {
+        text-align: left;
+        margin-left: 120px;
+
+    }
+    #menu {
+        text-align: right;
+        margin-top: 12px;
+        display: flexbox;
+        margin-right: 80px;
+    }
+    
+    #logo {
+        font-size: 24px;
+        position: absolute;
+        margin-top: 10px;
+    }
+    
+    .banner-title h1 {
+        font-size: 24px;
+    }
+    
+    .button-2 {
+        width: 100%;
+        margin-right: -20px;
+    }
+    #banner{
+
+        background: url(bkimg2jpg.jpg) no-repeat 0 0;
+        height: 30rem;
+        width: 100%;
+        background-size: cover;
+        display: block;
+        color: rgb(0, 0, 0);
+        
+    }
+    .footer-widget p{
+
+       color: rgb(250, 250, 250);
+       margin-top: 10px;
+        font-size: large;
+      
+    }
+    .video{
+
+        width: 200%;
+     }
+     .contact-container {
+       
+      display: block;
+    }
+
+}
+
+
+/* For screens smaller than 768px (phones) */
+@media (max-width: 767px) {
+    /* Adjust styles here */
+    #header {
+        text-align: left;
+        margin-left: 120px;
+        
+    }
+    #menu {
+        text-align: right;
+        margin-top: 12px;
+        display: flexbox;
+        margin-right: 80px;
+    }
+    
+    #logo {
+        font-size: 24px;
+        position: relative;
+        margin-top: 40px;
+       margin-left: 5px;
+    }
+    
+    .banner-title h1 {
+        font-size: 24px;
+    }
+    
+    .button-2 {
+        width: 90%;
+    }
+    #banner{
+
+        background: url(bkimg2jpg.jpg) no-repeat 0 0;
+        height: 30rem;
+        width: 100vw;
+        height: 100vh;
+        background-size: cover;
+        display: block;
+        color: rgb(0, 0, 0);
+        
+    }
+    .footer-widget p{
+
+        color: rgb(250, 250, 250);
+        font-size: large;
+        margin-left: 50px;
+        width: 100vw;
+        
+       
+     }
+     .footer-widget h4{
+        color: #e9e9e9;
+       margin-top: 40px;
+       font-size: 40px;
+       margin-left: 50px;
+     }
+     .video{
+
+        width: 70vw;
+        height: 50vh;
+     }
+      .form{
+           width: 100%;
+     
+      }
+    }
+    /* CSS for Toggle Button */
+.navbar-toggle {
+    display: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-toggle {
+        display: block;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #menu.active {
+        display: block;
+    }
+}
+
+
+      /*.contact-container {
+        width: 400px;
+        margin: 50px auto;
+        margin-left: 0px;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+        margin-bottom: 0px;
+    }*/
+      /* .contact-container{
+            margin: auto auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+            margin-bottom: 0px;
+
+            
+    max-width: 1000px;
+
+    } */
+/* 
+    .contact-container {
+        width: 400px;
+        margin: 10px auto;
+        margin-left: 0;
+        background-color: #fff;
+        padding: 50px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+        margin-bottom: 0px;
+    } */
+
+ 
+
+   
+/* @media (max-width: 767px) {
+
+    .contact-container {
+        margin: 50px auto;
+        margin-left: 20px;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+        margin-bottom: 0px;
+        width: 70%;
+    }                                   
+    .contact-heading    {
+
+
+        width : 29%;
+    }
+} */
+
